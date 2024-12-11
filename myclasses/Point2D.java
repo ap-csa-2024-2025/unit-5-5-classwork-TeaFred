@@ -1,4 +1,4 @@
-package myClassesYay;
+package myclasses;
 public class Point2D
 {
     private int x;

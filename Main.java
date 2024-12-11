@@ -1,5 +1,6 @@
-import myClassesYay;
 import java.util.Scanner;
+import myclasses.Dog; 
+import myclasses.Point2D; 
 
 public class Main
 {
@@ -13,9 +14,9 @@ public class Main
 
     p1.setX(in_x);
     System.out.println("You made a point at (" + p1.getX() + ", " + p1.getY() + ")");
+
     Dog theDawg = new Dog();
     theDawg.setBreed("corgi");
-    System.out.println(theDawg.getBreed());
-
+    System.out.println(theDawg.getbreed());
   }
 }

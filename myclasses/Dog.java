@@ -1,4 +1,4 @@
-package myClassesYay;
+package myclasses;
 public class Dog
 {
     private String breed;
@@ -14,7 +14,7 @@ public class Dog
     {
         return size;
     }
-    public String gtefurcolor()
+    public String getfurcolor()
     {
         return furColor;
     }
