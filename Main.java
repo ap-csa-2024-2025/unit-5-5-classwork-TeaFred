@@ -1,26 +1,21 @@
-package mycustompackage;
+import myClassesYay;
 import java.util.Scanner;
 
 public class Main
 {
   public static void main(String[] args)
   {
+    Scanner sc = new Scanner(System.in);
     Point2D p1 = new Point2D();
-    Point2D p2 = new Point2D();
-    p1.x = 0;
-    p1.y = 1;
 
-    p2.x = 1;
-    p2.y= 0;
+    int in_x = sc.nextInt();
+    int in_y = sc.nextInt();
 
-    Dog d1 = new Dog();
-    d1.breed = "corgi";
-    d1.size = 5;
-    d1.furColor = "orange";
+    p1.setX(in_x);
+    System.out.println("You made a point at (" + p1.getX() + ", " + p1.getY() + ")");
+    Dog theDawg = new Dog();
+    theDawg.setBreed("corgi");
+    System.out.println(theDawg.getBreed());
 
-    p1.setX(5);
-    p2.setX(10);
-    p1.setY(5);
-    p2.setY(10);
   }
 }
