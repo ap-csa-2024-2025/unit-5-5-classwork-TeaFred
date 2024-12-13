@@ -20,12 +20,13 @@ public class Point2D
     public void setY(int inputY)
     {
         y = inputY;
+    }
     public boolean equals (Point2D other)
     {
         return (x == other.x) && (y == other.y);
     }
     public String toString ()
     {
-        return "(" + x + ", " + y")";
+        return "(" + x + ", " + y + ")";
     }
 }
